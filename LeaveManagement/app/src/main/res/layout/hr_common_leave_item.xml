@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="25dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/employeeId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="employee ID" />
+
+    <TextView
+        android:id="@+id/reason"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="sicknessReason" />
+
+    <TextView
+        android:id="@+id/fromDate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="1/1/2014" />
+
+    <TextView
+        android:id="@+id/toDate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="2/8/2014" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Pending" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/accpet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Accept"
+            android:textColor="#4CAF50" />
+
+        <Button
+            android:id="@+id/reject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reject"
+            android:textColor="#F44336" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
