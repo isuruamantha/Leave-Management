@@ -61,8 +61,8 @@ public class MainActivity extends AppCompatActivity {
 //        usernameEditText.setText("952822160v"); //Normal
 //        passwordEditText.setText("12345");
 
-//        usernameEditText.setText("941353140V");  //HR
-//        passwordEditText.setText("12345");
+        usernameEditText.setText("941353140V");  //HR
+        passwordEditText.setText("12345");
 
         SharedPrefHelper sharedPrefHelper = new SharedPrefHelper(mActivity);
         DataHelper.insertDummyData();
