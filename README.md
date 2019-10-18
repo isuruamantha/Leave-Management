@@ -1,2 +1,1 @@
-# Leave-Management
-Android Leave Management system
+## Leave management app
